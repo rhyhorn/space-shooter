@@ -1,0 +1,77 @@
+{
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "7",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "BulletBehavior": {
+      "scriptId": "11",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "direction",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "EnemyBehavior": {
+      "scriptId": "15",
+      "line": 39,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "state",
+          "type": "any"
+        },
+        {
+          "name": "startPos",
+          "type": "Sup.Math.Vector3"
+        }
+      ]
+    },
+    "BackgroundBehavior": {
+      "scriptId": "18",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "ExplosionBehavior": {
+      "scriptId": "35",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "GameSceneBehavior": {
+      "scriptId": "29",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "lastLaunch",
+          "type": "number"
+        },
+        {
+          "name": "dir",
+          "type": "number"
+        }
+      ]
+    }
+  }
+}

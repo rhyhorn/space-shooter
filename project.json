@@ -1,0 +1,197 @@
+{
+  "name": "Space shooter",
+  "assets": [
+    {
+      "id": "25",
+      "name": "Scripts",
+      "type": null,
+      "children": [
+        {
+          "id": "27",
+          "name": "Game",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Scenes",
+      "type": null,
+      "children": [
+        {
+          "id": "3",
+          "name": "Game",
+          "type": null,
+          "children": [
+            {
+              "id": "4",
+              "name": "Scene",
+              "type": "scene"
+            },
+            {
+              "id": "29",
+              "name": "Game Scene Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "name": "Main Menu",
+          "type": null,
+          "children": [
+            {
+              "id": "23",
+              "name": "Scene",
+              "type": "scene"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "name": "Prefabs",
+      "type": null,
+      "children": [
+        {
+          "id": "17",
+          "name": "Background",
+          "type": null,
+          "children": [
+            {
+              "id": "18",
+              "name": "Behavior",
+              "type": "script"
+            },
+            {
+              "id": "19",
+              "name": "Planets Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "16",
+              "name": "Planets",
+              "type": "sprite"
+            },
+            {
+              "id": "21",
+              "name": "Stars Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "20",
+              "name": "Stars",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Player",
+          "type": null,
+          "children": [
+            {
+              "id": "5",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "6",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "7",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Player Bullet",
+          "type": null,
+          "children": [
+            {
+              "id": "9",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "10",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "11",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "name": "Enemy",
+          "type": null,
+          "children": [
+            {
+              "id": "13",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "14",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "15",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "30",
+          "name": "Enemy Explosion",
+          "type": null,
+          "children": [
+            {
+              "id": "32",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "33",
+              "name": "Prefab",
+              "type": "scene"
+            },
+            {
+              "id": "35",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Assets",
+      "type": null,
+      "children": [
+        {
+          "id": "24",
+          "name": "Font",
+          "type": "font"
+        },
+        {
+          "id": "36",
+          "name": "Smal Font",
+          "type": "font"
+        }
+      ]
+    }
+  ]
+}
